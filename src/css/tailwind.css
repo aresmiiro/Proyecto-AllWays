@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply w-52 h-72 shadow-md rounded-lg flex-none
+}
+
+.card1{
+    @apply dark:bg-medium-gray
+}
+
+.card2{
+    @apply dark:bg-medium-gray-2
+}
+
+.CardTitle {
+    @apply text-2xl px-8 pt-8 pb-2 font-semibold text-white
+}
+
+
+
